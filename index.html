@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Automatic-My-Slider</title>
+  </head>
+  <body>
+    <section class="auto-slider">
+      <div class="slider__warpper">
+        <div class="flex__container flex--pic1 flex--active" data-slide="1">
+          <img class="bg-line" src="img/Path_7.png" alt="" />
+          <div class="flex__item flex__item--center">
+            <div class="flex__content">
+              <p class="text--sub">Avengers</p>
+              <h1 class="text--big">Iron Man</h1>
+            </div>
+          </div>
+          <img class="auto-slider-img" src="img/Iron-Man-Transparent-PNG.png" />
+          <p class="text__background">Avengers</p>
+        </div>
+        <div class="flex__container flex--pic2 animate--start" data-slide="2">
+          <img class="bg-line" src="img/Path_7.png" alt="" />
+          <div class="flex__item flex__item--center">
+            <div class="flex__content">
+              <p class="text--sub">Avengers</p>
+              <h1 class="text--big">Spider Man</h1>
+            </div>
+          </div>
+          <img class="auto-slider-img" src="img/spiderman.png" />
+          <p class="text__background">Avengers</p>
+        </div>
+        <div class="flex__container flex--pic2 animate--start" data-slide="3">
+          <img class="bg-line" src="img/Path_7.png" alt="" />
+          <div class="flex__item flex__item--center">
+            <div class="flex__content">
+              <p class="text--sub">Avengers</p>
+              <h1 class="text--big">Thor</h1>
+            </div>
+          </div>
+          <img class="auto-slider-img" src="img/thor.png" />
+          <p class="text__background">Avengers</p>
+        </div>
+        <div class="flex__container flex--pic2 animate--start" data-slide="4">
+          <img class="bg-line" src="img/" alt="" />
+          <div class="flex__item flex__item--center">
+            <div class="flex__content">
+              <p class="text--sub">Avengers</p>
+              <h1 class="text--big">Black<br />Panther</h1>
+            </div>
+          </div>
+          <img class="auto-slider-img" src="img/unnamed-removebg-preview.png" />
+          <p class="text__background">Avengers</p>
+        </div>
+      </div>
+
+      <div class="slider__navi">
+        <a id="click1" href="#" class="slide-nav active" data-slide="1">pic1</a>
+        <a id="click2" href="#" class="slide-nav" data-slide="2">pic2</a>
+        <a id="click3" href="#" class="slide-nav" data-slide="3">pic3</a>
+        <a id="click4" href="#" class="slide-nav" data-slide="4">pic3</a>
+      </div>
+    </section>
+  </body>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="script.js"></script>
+</html>

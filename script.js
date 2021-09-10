@@ -28,7 +28,7 @@ var count = 1;
 setInterval(function(){
     document.getElementById('click' + count).click();
     count++;
-    if(count > 4){
+    if(count > 5){
         count = 1;
     }
 }, 5000);
